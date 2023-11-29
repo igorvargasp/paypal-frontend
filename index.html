@@ -91,7 +91,7 @@
                 });
             },
             onApprove: function (data) {
-                fetch('http://localhost:3000/completePurchase', {
+                fetch('https://paypal-sand.vercel.app/completePurchase', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
